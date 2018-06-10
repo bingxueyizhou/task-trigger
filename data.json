@@ -1,16 +1,3 @@
-# task-trigger
-node.js 任务触发器。基于node-schedule的任务触发器，定时触发shell和rest接口
-
-
-# how to use
-
-node app.js
-
-
-# data config
-time format reference to https://github.com/node-schedule/node-schedule
-
-eg.
 {
   "tasklist":[
     {
@@ -32,6 +19,6 @@ eg.
     }
   ],
   "trigger":{
-    "key":""
+    "key":"123"
   }
 }
